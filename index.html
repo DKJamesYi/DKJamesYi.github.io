@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이동근 - Profile</title>
+    <style>
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .title h1 {
+            font-size: 48px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        .title .english-name {
+            font-size: 24px;
+            color: #999;
+            margin-top: 5px;
+            text-transform: uppercase;
+        }
+        .info {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+        hr {
+            border: 0;
+            border-top: 2px solid #333;
+            margin: 20px 0;
+        }
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        .content-section {
+            margin-bottom: 30px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .footer {
+            text-align: right;
+            font-size: 14px;
+            margin-top: 40px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="profile.jpg" alt="이동근" class="profile-img">
+        <div class="title">
+            <h1>이동근</h1>
+            <div class="english-name">DONGKEUN YI</div>
+            <div class="info">
+                POSCO E&C Digital Solution Group | 차장<br>
+                IMMS 13기
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <ul>
+            <li>여전히 궁금한게 많은 15년 차 직장인</li>
+            <li>계획적인 파워 J</li>
+            <li>서로의 강점을 극대화하는 리더십 지향</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2>내가 잘 아는 것들</h2>
+        <p>서버/네트워크/보안 인프라 설계</p>
+        <p>회사 보안이 어디까지 보고 있는지</p>
+        <p>보안과 편리함 사이 경계선에서 균형 잡기</p>
+    </div>
+
+    <div class="content-section">
+        <h2>요즘 꼼지락거리는 것</h2>
+        <p>Next.js 찍먹 중</p>
+        <p>생면 파스타 만들기</p>
+        <p>듀오링고 (일본어)</p>
+    </div>
+
+    <div class="grid-container">
+        <div class="content-section">
+            <h2>이런 거 같이 해요</h2>
+            <p>파이썬 API/자동화 같이 해봐요</p>
+            <p>루원시티 홈파티</p>
+        </div>
+        <div class="content-section">
+            <h2>좋아 하는 것</h2>
+            <p>래서팬더</p>
+        </div>
+    </div>
+
+    <hr>
+    <div class="footer">@dreamcity</div>
+
+</body>
+</html>
